@@ -33,7 +33,8 @@ public class Room {
     @OneToMany(mappedBy = "room", fetch = FetchType.LAZY, cascade = CascadeType.ALL) //Cascade.ALL when deleting a room, all the booking history is deleted
     private List<BookedRoom> bookings;
 
-    public Room() {
+    public Room()
+    {
         this.bookings = new ArrayList<>();
     }
 

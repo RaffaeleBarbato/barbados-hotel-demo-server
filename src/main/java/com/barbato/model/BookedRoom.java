@@ -40,25 +40,30 @@ public class BookedRoom {
     @JoinColumn(name = "room_id")
     private Room room;
 
-    public void calculateTotalNumberOfGuest(){
+    public void calculateTotalNumberOfGuest()
+    {
         this.totalNumOfGuest = this.NumOfAdults + this.NumOfChildren;
     }
 
-    public void setNumOfAdults(int numOfAdults) {
+    public void setNumOfAdults(int numOfAdults)
+    {
         NumOfAdults = numOfAdults;
         calculateTotalNumberOfGuest();
     }
 
-    public void setNumOfChildren(int numOfChildren) {
+    public void setNumOfChildren(int numOfChildren)
+    {
         NumOfChildren = numOfChildren;
         calculateTotalNumberOfGuest();
     }
 
-    public void setBookingConfirmationCode(String bookingConfirmationCode) {
+    public void setBookingConfirmationCode(String bookingConfirmationCode)
+    {
         this.bookingConfirmationCode = bookingConfirmationCode;
     }
 
-    public void setRoom(Room room) {
+    public void setRoom(Room room)
+    {
         this.room = room;
     }
 }
