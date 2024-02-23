@@ -7,6 +7,8 @@ spring:
     password: postgres
     url: jdbc:postgresql://localhost:5432/barbados_hotel_db
     driver-class-name: org.postgresql.Driver
+    hikari:
+      auto-commit: false
   jpa:
     show-sql: true
     hibernate:
