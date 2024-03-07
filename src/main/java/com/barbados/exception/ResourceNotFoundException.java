@@ -1,4 +1,4 @@
-package com.barbato.exception;
+package com.barbados.exception;
 
 public class ResourceNotFoundException extends RuntimeException {
     public ResourceNotFoundException(String message) {

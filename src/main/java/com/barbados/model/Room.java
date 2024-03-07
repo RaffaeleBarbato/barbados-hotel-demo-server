@@ -1,13 +1,11 @@
-package com.barbato.model;
+package com.barbados.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.apache.commons.lang3.RandomStringUtils;
 
-import java.awt.print.Book;
 import java.math.BigDecimal;
 import java.sql.Blob;
 import java.util.ArrayList;

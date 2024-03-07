@@ -1,6 +1,6 @@
-package com.barbato.service;
+package com.barbados.service;
 
-import com.barbato.model.Room;
+import com.barbados.model.Room;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.IOException;

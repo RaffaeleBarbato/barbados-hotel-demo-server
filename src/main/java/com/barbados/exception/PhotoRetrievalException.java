@@ -1,4 +1,4 @@
-package com.barbato.exception;
+package com.barbados.exception;
 
 public class PhotoRetrievalException extends RuntimeException {
     public PhotoRetrievalException(String message) {

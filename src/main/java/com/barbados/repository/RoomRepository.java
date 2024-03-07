@@ -1,6 +1,6 @@
-package com.barbato.repository;
+package com.barbados.repository;
 
-import com.barbato.model.Room;
+import com.barbados.model.Room;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 

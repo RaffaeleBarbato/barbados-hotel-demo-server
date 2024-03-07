@@ -1,4 +1,4 @@
-package com.barbato.exception;
+package com.barbados.exception;
 
 public class InternalServerException extends RuntimeException {
     public InternalServerException(String message) {

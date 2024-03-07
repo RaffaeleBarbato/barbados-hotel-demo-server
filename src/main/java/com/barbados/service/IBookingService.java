@@ -1,6 +1,6 @@
-package com.barbato.service;
+package com.barbados.service;
 
-import com.barbato.model.BookedRoom;
+import com.barbados.model.BookedRoom;
 
 import java.util.List;
 

@@ -1,13 +1,12 @@
-package com.barbato.controller;
+package com.barbados.controller;
 
-import com.barbato.exception.PhotoRetrievalException;
-import com.barbato.exception.ResourceNotFoundException;
-import com.barbato.model.BookedRoom;
-import com.barbato.model.Room;
-import com.barbato.response.BookingResponse;
-import com.barbato.response.RoomResponse;
-import com.barbato.service.BookingService;
-import com.barbato.service.IRoomService;
+import com.barbados.exception.PhotoRetrievalException;
+import com.barbados.exception.ResourceNotFoundException;
+import com.barbados.model.BookedRoom;
+import com.barbados.model.Room;
+import com.barbados.response.RoomResponse;
+import com.barbados.service.BookingService;
+import com.barbados.service.IRoomService;
 import lombok.RequiredArgsConstructor;
 import org.apache.tomcat.util.codec.binary.Base64;
 import org.springframework.format.annotation.DateTimeFormat;

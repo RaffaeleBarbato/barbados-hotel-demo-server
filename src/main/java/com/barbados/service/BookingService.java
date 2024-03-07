@@ -1,10 +1,10 @@
-package com.barbato.service;
+package com.barbados.service;
 
-import com.barbato.exception.InvalidBookingRequestException;
-import com.barbato.exception.ResourceNotFoundException;
-import com.barbato.model.BookedRoom;
-import com.barbato.model.Room;
-import com.barbato.repository.BookingRepository;
+import com.barbados.exception.InvalidBookingRequestException;
+import com.barbados.exception.ResourceNotFoundException;
+import com.barbados.model.BookedRoom;
+import com.barbados.model.Room;
+import com.barbados.repository.BookingRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

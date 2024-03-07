@@ -1,6 +1,6 @@
-package com.barbato.repository;
+package com.barbados.repository;
 
-import com.barbato.model.BookedRoom;
+import com.barbados.model.BookedRoom;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

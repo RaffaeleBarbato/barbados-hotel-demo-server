@@ -1,12 +1,11 @@
-package com.barbato.service;
+package com.barbados.service;
 
-import com.barbato.exception.InternalServerException;
-import com.barbato.exception.ResourceNotFoundException;
-import com.barbato.model.Room;
-import com.barbato.repository.RoomRepository;
+import com.barbados.exception.InternalServerException;
+import com.barbados.exception.ResourceNotFoundException;
+import com.barbados.model.Room;
+import com.barbados.repository.RoomRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.sql.rowset.serial.SerialBlob;
