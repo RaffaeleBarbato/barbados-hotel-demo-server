@@ -1,26 +1,29 @@
-server:
-  port: 9192
+#spring:
+#  datasource:
+#    username: postgres
+#    password: postgres
+#    url: jdbc:postgresql://localhost:5432/barbados_hotel_db
+#    driver-class-name: org.postgresql.Driver
+#    hikari:
+#      auto-commit: false
+#     main:
+#       allow-bean-definition-overriding: true
 
-spring:
-  datasource:
-    username: postgres
-    password: postgres
-    url: jdbc:postgresql://localhost:5432/barbados_hotel_db
-    driver-class-name: org.postgresql.Driver
-    hikari:
-      auto-commit: false
-  jpa:
-    show-sql: true
-    hibernate:
-      ddl-auto: update
-      format_sql: true
-  servlet:
-    multipart:
-    max-file-size: 5MB
-    max-request-size: 5MB
-    file-size-threshold: 2KB
+#  jpa:
+#    show-sql: true
+#    hibernate:
+#      ddl-auto: update
+#      format_sql: true
+#  servlet:
+#    multipart:
+#    max-file-size: 5MB
+#    max-request-size: 5MB
+#    file-size-threshold: 2KB
+#
+#    security:
+#      jwt:
+#        secret-key: 36763979244226452948404D635166546A576D5A7134743777217A25432A462D
+#        expire-length: 3600000
 
-    security:
-      jwt:
-        secret-key: 36763979244226452948404D635166546A576D5A7134743777217A25432A462D
-        expire-length: 3600000
+#server:
+#  port: 9192
